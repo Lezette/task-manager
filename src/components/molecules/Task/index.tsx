@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Task = () => { }
+const Task = () => {}
 
 export default Task

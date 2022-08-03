@@ -1,4 +1,78 @@
 html, body {
   font-family: 'Nunito Sans', sans-serif;
   margin: 0;
+  background-color: $white;
+  color: $black;
+  min-height: 100vh;
 }
+
+body.dark{
+ background-color: #2C2C38;
+ color: $white
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  font-weight: normal;
+}
+
+
+.flex-lg {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.items-end{
+  align-items: flex-end;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .flex-lg {
+  display: block;
+}
+}
+

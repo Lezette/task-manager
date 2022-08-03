@@ -1,11 +1,14 @@
 import React from 'react'
-
+import { Menu } from '../components/organism'
 const Homepage = () => {
 
   return (
-    <>
-      HEy Kanban
-    </>
+    <main>
+      <Menu />
+      <main>
+          
+      </main>
+    </main>
   )
 }
 
